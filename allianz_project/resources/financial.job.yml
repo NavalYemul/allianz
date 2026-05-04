@@ -1,0 +1,11 @@
+resources:
+  jobs:
+    financial_job:
+      name: financial_job
+      tasks:
+        - task_key: pipeline
+          pipeline_task:
+            pipeline_id: c06794f4-475b-4f70-b801-e7f702b3055e
+      queue:
+        enabled: true
+      performance_target: PERFORMANCE_OPTIMIZED
